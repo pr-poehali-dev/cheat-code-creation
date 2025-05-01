@@ -10,12 +10,17 @@ export default function Index() {
         <CardHeader>
           <CardTitle>Демонстрационное приложение</CardTitle>
           <CardDescription>Выберите страницу для перехода</CardDescription>
+
+          <CardDescription>Выберите страницу для перехода</CardDescription>
         </CardHeader>
-        <CardContent>
+        <CardContent className="space-y-4">
           <Link to="/cheat-demo">
-            <Button className="w-full">Демо страница</Button>
+            <Button className="w-full mb-2">Демо страница</Button>
           </Link>
-        </CardContent>
+          <Link to="/minecraft-servers">
+            <Button className="w-full" variant="secondary">Создание серверов Minecraft</Button>
+          </Link>
+
       </Card>
     </div>
   );

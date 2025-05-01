@@ -3,9 +3,12 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Toaster } from 'sonner';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { TooltipProvider } from '@radix-ui/react-tooltip';
+
 import Index from './pages/Index';
 import NotFound from './pages/NotFound';
 import CheatDemo from './pages/CheatDemo';
+import MinecraftServers from './pages/MinecraftServers';
+
 import './App.css';
 
 const queryClient = new QueryClient();
